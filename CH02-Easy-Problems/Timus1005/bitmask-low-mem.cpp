@@ -1,7 +1,7 @@
 /**
  *    problem: Timus 1005 Stone Pile
  *    author: sjsakib
- *    approach: bitmask O(n * 2^n)
+ *    approach: bitmask time: O(n * 2^n)
 **/
 #include <bits/stdc++.h>
 
