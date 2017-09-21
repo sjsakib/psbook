@@ -34,3 +34,17 @@
 গ্রীডি টেকনিকে খুবই সহজে সমাধান করা সম্ভব। ৯ থেকে ২ পর্যন্ত সংখ্যাগুলো দিয়ে যতবার ভাগ যায় ভাগ দিতে থাকব আর সংখ্যাগুলো লিখে রাখব। যদি শেষে ১ থাকে তাহলে সমাধান আছে।
 লিখে রাখা সংখ্যাগুলো উল্টা অর্ডারে প্রিন্ট করব।
 * [O(n) গ্রীডি কোড](/CH02-Easy-Problems/Timus1014.cpp)
+
+## [Timus 1020 Rope](http://acm.timus.ru/problem.aspx?space=1&num=1020)
+একটু চিন্তা করলে বুঝা যাবে যে দড়ির দৈর্ঘ হবে বহুভুজের পরিসিমা ও একটি পেরেকের পরিসীমার সমান।
+* [কোড](/CH02-Easy-Problems/Timus1020.cpp)
+
+## [Timus 1044 Lucky Tickets. Easy!](http://acm.timus.ru/problem.aspx?space=1&num=1044)
+দেখতে ঝামেলার মনে হতে পারে। কিন্তু আসলে সিম্পল। n = 8 বিবেচনা করা যাক। অর্ধেকগুলা ডিজিটের সর্বোচ্চ যোগফল হতে পারে ৩৬। প্রিতিটি যোগফল কতভাবে হতে পারে তা রাখার জন্য mem‌[3‌] নেব। একটা  এখন ০ থেকে ৯৯৯৯ পর্যন্ত লুপ চালিয়ে প্রতিটি সংখ্যার ডিজিট সাম s বের করতে হবে এবং mem‌[s‌] বাড়াতে হবে। তাহলে আমরা পেয়ে যাচ্ছি কতভাবে কোন একটি যোগফল সম্ভব।
+* [কোড](/CH02-Easy-Problems/Timus1044.cpp)
+
+## [Timus 1197 Lonesome Knight](http://acm.timus.ru/problem.aspx?space=1&num=1197)
+* [কোড](/CH02-Easy-Problems/Timus1197.cpp)
+
+## [UVa 202 Repeating Decimals](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=138)
+* [কোড](/CH02-Easy-Problems/UVa202.cpp)
