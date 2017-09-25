@@ -5,3 +5,5 @@
 
 # সূচীপত্র
 * [অধ্যায় ২ - কিছু সহজ সমস্যা](CH02-Easy-Problems/README.md)
+  * [অনুশীলনী](CH02-Easy-Problems/Exercises)
+* [অধ্যায় ৩ - STL প্র্যাকটিস](CH03-STL)
