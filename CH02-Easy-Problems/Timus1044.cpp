@@ -25,18 +25,18 @@ int digitsum(int n) {
 }
 
 int n;
-int pos[38];
+int mem[38];
 
 int main() {
     scanf("%d", &n);
     for (int i = 0; i < pow(10, n/2); ++i) {
         int s = digitsum(i);
-        pos[s]++;
+        mem[s]++;
     }
     int ans = 0;
     for (int i = 0; i < pow(10, n/2); ++i) {
         int s = digitsum(i);
-        ans += pos[s];
+        ans += mem[s];
     }
     printf("%d\n", ans);
     return 0;
