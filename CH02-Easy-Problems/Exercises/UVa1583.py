@@ -1,6 +1,6 @@
 """
 Problem: UVa 1583 Digit Generator
-Author: sjakib
+Author: sjsakib
 
 We go through all numbers from 0 to MAX and calculate it's digit_sum. Then we save the number as one of the
 digit_sums generator. Then for all input we return the minimum of it's saved generators
