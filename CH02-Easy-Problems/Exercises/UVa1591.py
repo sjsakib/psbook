@@ -3,7 +3,7 @@ Problem: UVa 1591 Data Mining
 Author: sjsakib
 
 We will go through all possible combinations of A and B and generate Qofs for maximum Pofs ( (N-1)*Sp )
-and then we'll see which of them is the smallest, but but greater than or equal (N-1)*Sq
+and then we'll see which of them is the smallest, but greater than or equal (N-1)*Sq
 """
 from sys import stdin
 
