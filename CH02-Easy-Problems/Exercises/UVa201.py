@@ -38,12 +38,12 @@ while True:
         print("\n**********************************\n")
 
     print("Problem #", case, '\n', sep='')
-    
+
     if sum(ans) == 0:
         print("No completed squares can be found.")
     else:
         for i, v in enumerate(ans):
             if v:
                 print(v, "square (s) of size", i+1)
-    
+
     case += 1
