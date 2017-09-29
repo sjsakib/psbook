@@ -41,7 +41,6 @@ def delete_col(cols):
     global col
     for i, c in enumerate(cols):
         for j in range(row):
-            # print(j, c-i-1, len(tb), len(tb[0]))
             del tb[j][c-i-1]
     col -= len(cols)
 
