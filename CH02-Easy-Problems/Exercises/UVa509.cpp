@@ -1,3 +1,8 @@
+/**
+ * Problem: UVa 509 - RAID!
+ * Author: sjsakib
+ *
+**/
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -7,7 +12,6 @@ int d, s, b;
 bool parity;
 
 bool read() {
-    //printf("Came read\n");
     char p;
     scanf("%d %d %d\n%c\n", &d, &s, &b, &p);
     if (d == 0) return 0;
@@ -17,27 +21,20 @@ bool read() {
     for (int i = 0; i < d; i++) {
         scanf("%s", disks[i]);
     }
-    //printf("Exiting read\n");
     return 1;
 }
 
 bool valid() {
-    //printf("Came valid\n");
     for (int i = 0; i < s*b; i++) {
         int k = 0, lost = -1;
-        //printf("i is %d\n", i);
         for (int j = 0; j < d; j++) {
-            //printf("j is %d\n", j);
             char &c = disks[j][i];
-            //printf("%c %c\n", c, disks[j][i] );
             if (c == '1') k ^= 1;
             else if ( c == 'x') {
                 if (lost != -1) return 0;
                 lost = j;
             }
-            //printf("%c %c\n", c, disks[j][i] );
         }
-        //printf("lost is %d %d %d\n", lost, k, parity);
         if ( lost == -1 && k != parity ) return 0;
         if (lost != -1) disks[lost][i] = (parity != k) + '0';
     }
@@ -45,7 +42,6 @@ bool valid() {
 }
 
 void printData() {
-    //printf("Came print\n");
     int n = 0, cnt = 0;
     for (int i = 0; i < b; i++) {
         for (int j = 0; j < d; j++) {
@@ -59,11 +55,9 @@ void printData() {
                 } else {
                     n <<= 1;
                 }
-                //printf("\nn is %d, %d\n",n, cnt);
             }
         }
     }
-    //printf("\n%d %d\n",cnt, n );
     if (cnt) {
         n <<= (3-cnt);
         printf("%X", n);
