@@ -1,3 +1,8 @@
+/**
+ * Problem: UVa 220 - Othello
+ * Author: sjsakib
+ *
+**/
 #include <bits/stdc++.h>
 
 using namespace std;
