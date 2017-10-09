@@ -1,3 +1,8 @@
+/**
+ * Problem: UVa 340 - Master-Mind Hints
+ * Author: sjsakib
+ *
+**/
 #include <bits/stdc++.h>
 
 using namespace std;
