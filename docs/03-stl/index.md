@@ -1,0 +1,5 @@
+* [UVa 101 - The Blocks Problem](uva101.md)
+* [UVa 10815 - Andy's First Dictionary](uva10815.md)
+* [UVa 12096 - The SetStack Computer](uva12096.md)
+* [UVa 156 - Anagrams](uva156.md)
+* [UVa 1592 - Database](uva1592.md)
