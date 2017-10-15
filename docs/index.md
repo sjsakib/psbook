@@ -11,3 +11,8 @@
 * [অধ্যায় ৪ - Mathematics](04-mathematics)
   * [অনুশীলনী](04-mathematics/exercises)
 
+* [.gitignore](.gitignore.md)
+* [readme](readme.md)
+* [_config](_config.md)
+* [readme](readme.md)
+* [_config](_config.md)
