@@ -1,9 +1,13 @@
 /**
  * Author: sjsakib
  * Problem: UVa 11582 - Colossal Fibonacci Numbers!
- * Approach: 
+ * Approach: Cycle + Matrix Exponent + DP
+ * এখানে ম্যাট্রিক্স এক্সপোনেন্টের বদলে একটি ফর্মুলা ব্যবহার করা হয়েছে যেটি ম্যাট্রিক্স এক্সপোনেন্ট থেকে পাওয়া যায়।
+ * কম্প্লেক্সিটি এক হলেও এটার কোড অনেক সিম্পল।
 **/
-#include <bits/stdc++.h>
+#include <stdio.h>
+#include <string.h>
+#include <vector>
 
 #define MAX 1000
 
@@ -14,11 +18,14 @@ vector<int> cycles[MAX+10];
 int mem[3009][1009];
 
 int bigmod(unsigned long long a, unsigned long long b, int n) {
-    if (b == 0) return 1 % n;
-    int x = bigmod(a, b/2, n);
-    x = (x*x) % n;
-    if(b&1) x = (x * (a%n)) % n;
-    return x;
+    a = a % n;
+    int ret = 1;
+    while (b > 0) {
+        if (b & 1) ret = (ret * a) % n;
+        a = (a*a) % n;
+        b /= 2;
+    }
+    return ret;
 }
 
 int fib(int i, int n) {
@@ -37,7 +44,6 @@ int fib(int i, int n) {
         int fk = fib(k, n);
         ret = (fk*fk + fk1*fk1) % n;
     }
-    //printf("%d %d\n", i, n);
     mem[i][n] = ret;
     return ret;
 }
