@@ -5,3 +5,4 @@
 * [UVa 10763 - Foreign Exchange](uva10763.md)
 * [UVa 1595 - Symmetry](uva1595.md)
 * [UVa 230 - Borrowers](uva230.md)
+* [UVa 1596 - Bug Hunt](uva1596.md)
