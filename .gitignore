@@ -5,3 +5,4 @@
 *.sublime-workspace
 docs/_site/*
 docs/Gemfile.lock
+test.*
