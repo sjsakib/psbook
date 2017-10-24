@@ -6,3 +6,4 @@
 * [UVa 1595 - Symmetry](uva1595.md)
 * [UVa 230 - Borrowers](uva230.md)
 * [UVa 1596 - Bug Hunt](uva1596.md)
+* [UVa 822 - Queue and A](uva822.md)
