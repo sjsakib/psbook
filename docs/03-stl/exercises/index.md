@@ -10,3 +10,4 @@
 * [UVa 12333 - Revenge of Fibonacci](uva12333.md)
 * [UVa 12504 - Updating a Dictionary](uva12504.md)
 * [UVa 511 - Do You Know the Way to San Jose?](uva511.md)
+* [UVa 212 - Use of Hospital Facilities](uva212.md)
