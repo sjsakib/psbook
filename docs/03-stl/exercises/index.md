@@ -11,3 +11,6 @@
 * [UVa 12504 - Updating a Dictionary](uva12504.md)
 * [UVa 511 - Do You Know the Way to San Jose?](uva511.md)
 * [UVa 212 - Use of Hospital Facilities](uva212.md)
+* [Timus 1209 - 1, 10, 100, 1000...](timus1209.md)
+* [UVa 12100 - Printer Queue](uva12100.md)
+* [UVa 540 - Team Queue](uva540.md)
